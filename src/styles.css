@@ -36,7 +36,8 @@ body {
 .pf-root {
   min-height: 100vh;
   position: relative;
-  background-image: linear-gradient(var(--grid-soft) 1px, transparent 1px),
+  background-image:
+    linear-gradient(var(--grid-soft) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid-soft) 1px, transparent 1px);
   background-size: 48px 48px;
 }
@@ -197,7 +198,10 @@ body {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    background 0.2s;
 }
 .pf-btn.primary {
   background: var(--accent);
@@ -322,7 +326,9 @@ body {
 .sheet-body {
   opacity: 0;
   transform: translateY(14px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
 }
 .sheet-body.in {
   opacity: 1;
@@ -413,7 +419,9 @@ body {
   gap: 12px;
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.2s, transform 0.2s;
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
 }
 .proj-card:hover {
   border-color: var(--accent-2);

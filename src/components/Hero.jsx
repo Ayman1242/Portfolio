@@ -3,7 +3,8 @@ import { ArrowUpRight } from "lucide-react";
 import { PROFILE } from "../content.js";
 
 export default function Hero() {
-  const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  const scrollTo = (id) =>
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return (
     <header className="pf-hero">

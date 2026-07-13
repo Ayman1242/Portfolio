@@ -13,10 +13,20 @@ export default function Contact() {
           <a className="pf-btn primary" href={`mailto:${PROFILE.email}`}>
             <Mail size={15} /> {PROFILE.email}
           </a>
-          <a className="pf-btn" href={PROFILE.github} target="_blank" rel="noreferrer">
+          <a
+            className="pf-btn"
+            href={PROFILE.github}
+            target="_blank"
+            rel="noreferrer"
+          >
             <Github size={15} /> GitHub
           </a>
-          <a className="pf-btn" href={PROFILE.linkedin} target="_blank" rel="noreferrer">
+          <a
+            className="pf-btn"
+            href={PROFILE.linkedin}
+            target="_blank"
+            rel="noreferrer"
+          >
             <Linkedin size={15} /> LinkedIn
           </a>
         </div>

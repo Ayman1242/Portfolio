@@ -7,7 +7,10 @@
 export const PROFILE = {
   name: "Ayman Abdelfattah",
   role: "Software Developer",
-  focus:"",
+  focus:
+    "Software developer with 3+ years of experience building full-stack applications, " +
+    "from front-end interfaces to backend services and data layers. Comfortable across the stack, " +
+    "with particular strength in backend systems, database design, and performance optimization.",
   location: "Edmonton, AB",
   email: "aymanabdelfattah1@gmail.com",
   github: "https://github.com/ayman1242",
@@ -34,8 +37,7 @@ export const EXPERIENCE = [
     role: "Software Developer II",
     org: "Computronix",
     period: "May 2023 — Nov 2025",
-    body:
-      "Built and maintained permitting and licensing platforms used by government clients",
+    body: "Built and maintained permitting and licensing platforms used by government clients",
   },
 ];
 
@@ -48,5 +50,4 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT_TEXT =
-  "";
+export const CONTACT_TEXT = "";
