@@ -7,7 +7,7 @@ export default function Projects() {
     <Sheet id="projects" label="Sheet 04 / Projects">
       <div className="proj-grid">
         {PROJECTS.map((p) => (
-          <a className="proj-card" href={p.link} key={p.name}>
+          <a className="proj-card" href={p.link} key={p.name} target="_blank" rel="noreferrer">
             <div className="proj-name">
               {p.name} <ArrowUpRight size={16} color="#8a96ac" />
             </div>

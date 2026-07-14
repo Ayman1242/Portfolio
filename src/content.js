@@ -54,10 +54,17 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    name: "Project 01",
-    tag: "—",
-    body: "",
-    link: "#",
+  name: "This Portfolio",
+  tag: "React · Vite · CSS",
+  body:
+    "Personal portfolio site built with React and Vite, structured as reusable " +
+    "components (Nav, Hero, Sheet, About, Experience, Projects, Contact) with a " +
+    "shared content layer for easy editing without touching layout code. Styled " +
+    "with hand-written CSS using custom properties for theming, no CSS framework " +
+    "or component library. Uses the IntersectionObserver API for scroll-triggered " +
+    "animations and lucide-react for iconography. Fully static with no backend, " +
+    "built and deployed as a production bundle via Vite.",
+  link: "https://github.com/Ayman1242/Portfolio",
   },
 ];
 
