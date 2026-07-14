@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------
-   DESIGN TOKENS — change these to re-theme the whole site
+   DESIGN TOKENS
 --------------------------------------------------------- */
 :root {
   --bg: #0b1220;
@@ -139,7 +139,7 @@ body {
 /* HERO */
 .pf-hero {
   padding: 96px 28px 10px;
-  max-width: 980px;
+  max-width: 1680px;
   margin: 0 auto;
   position: relative;
 }
@@ -175,7 +175,7 @@ body {
 .pf-sub {
   font-size: 18px;
   color: var(--muted);
-  max-width: 560px;
+  max-width: 1200px;
   line-height: 1.6;
   margin-bottom: 36px;
 }
@@ -301,7 +301,7 @@ body {
 
 /* SHEETS (sections) */
 .sheet {
-  max-width: 980px;
+  max-width: 1680px;
   margin: 0 auto;
   padding: 40px 28px 10px;
   scroll-margin-top: 80px;
@@ -488,7 +488,7 @@ body {
 }
 
 .pf-footer {
-  max-width: 980px;
+  max-width: 1680px;
   margin: 0 auto;
   padding: 40px 28px 60px;
   display: flex;
