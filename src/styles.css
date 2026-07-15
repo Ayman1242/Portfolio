@@ -478,12 +478,13 @@ body {
 .contact-wrap {
   display: flex;
   flex-direction: column;
-  gap: 22px;
   align-items: flex-start;
 }
 .contact-links {
   display: flex;
+  flex-direction: column;
   gap: 14px;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
