@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "npm run build && wrangler dev",
+    "format": "prettier --write .",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "lucide-react": "^0.383.0",
@@ -14,14 +16,10 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.45.0",
     "@vitejs/plugin-react": "^6.0.3",
     "prettier": "^3.9.5",
-    "vite": "^8.1.4"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "format": "prettier --write ."
+    "vite": "^8.1.4",
+    "wrangler": "^4.111.0"
   }
 }
