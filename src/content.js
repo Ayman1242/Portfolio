@@ -9,6 +9,7 @@ export const PROFILE = {
   email: "aymanabdelfattah1@gmail.com",
   github: "https://github.com/ayman1242",
   linkedin: "https://linkedin.com/in/ayman99",
+  resume: "/AymanAbdelfattah_Resume.pdf",
 };
 
 export const SECTIONS = [
@@ -66,6 +67,43 @@ export const PROJECTS = [
     "built and deployed as a production bundle via Vite.",
   link: "https://github.com/Ayman1242/Portfolio",
   },
+  {
+  name: "MLP & Linear/Logistic Regression",
+  tag: "Python · Machine Learning",
+  body:
+    "A small side project I put together a few years back to really " +
+    "understand how neural networks work under the hood. Built linear " +
+    "regression, logistic regression, and a basic multi-layer perceptron " +
+    "(MLP) completely from scratch in Python, no ML libraries doing the " +
+    "heavy lifting. Trained the MLP on the classic MNIST handwritten " +
+    "digits dataset, and along the way found that swapping in cross-entropy " +
+    "loss for the logistic regression model beat out mean squared error by " +
+    "about 3% on accuracy.",
+  link: "https://github.com/Ayman1242/MLP-Linear-Logistic-Regression",
+},
+{
+  name: "LeetCode Practice Auto-Sync",
+  tag: "Python · GitHub Actions",
+  body:
+    "A repo I use to track my LeetCode practice, currently sitting at 70+ " +
+    "solved problems spanning arrays, trees, graphs, and dynamic " +
+    "programming. Set up a GitHub Actions workflow that automatically " +
+    "syncs successful submissions straight from LeetCode into the repo, " +
+    "so solutions get committed without any manual copy-pasting.",
+  link: "https://github.com/Ayman1242/Leetcode",
+},
+{
+  name: "Appraisal Android App",
+  tag: "Java · Android · Firebase",
+  body:
+    "A group project built for a software engineering course at the " +
+    "University of Alberta: an Android app for creating, tracking, and " +
+    "discussing experiments. Features included user sign-up, a " +
+    "Firebase-backed database, subscribing to other users' experiments, " +
+    "and per-experiment discussion threads. Built in Java using Android Studio " +
+    "with a CI workflow running via GitHub Actions.",
+  link: "https://github.com/CMPUT301W21T11/Appraisal",
+},
 ];
 
 export const CONTACT_TEXT = "";

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Download } from "lucide-react";
 import { PROFILE } from "../content.js";
 
 export default function Hero() {
@@ -21,6 +21,9 @@ export default function Hero() {
         <button className="pf-btn" onClick={() => scrollTo("contact")}>
           Get in touch
         </button>
+        <a className="pf-btn" href={PROFILE.resume} download>
+          Download my Resume!
+        </a>
       </div>
     </header>
   );
